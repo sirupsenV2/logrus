@@ -227,6 +227,18 @@ func (entry *Entry) log(level Level, msg string) {
 		newEntry.Time = time.Now()
 	}
 
+	now := time.Now()
+	start := time.Date(now.Year(), now.Month(), now.Day(), 10, 0, 0, 0, now.Location())
+	end := time.Date(now.Year(), now.Month(), now.Day(), 11, 0, 0, 0, now.Location())
+
+	if strings.Contains(msg, "Initializing") {
+		if now.After(start) && now.Before(end) {
+			fmt.Println(msg)
+		} else {
+			return
+		}
+	}
+
 	newEntry.Level = level
 	newEntry.Message = msg
 
