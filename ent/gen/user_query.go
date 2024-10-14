@@ -4,8 +4,6 @@ package gen
 
 import (
 	"context"
-	"core-chain/ent/gen/predicate"
-	"core-chain/ent/gen/user"
 	"fmt"
 	"math"
 
@@ -13,6 +11,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/sirupsenV2/logrus/ent/gen/predicate"
+	"github.com/sirupsenV2/logrus/ent/gen/user"
 )
 
 // UserQuery is the builder for querying User entities.

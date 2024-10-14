@@ -9,13 +9,12 @@ import (
 	"log"
 	"reflect"
 
-	"core-chain/ent/gen/migrate"
-
-	"core-chain/ent/gen/user"
+	"github.com/sirupsenV2/logrus/ent/gen/migrate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
+	"github.com/sirupsenV2/logrus/ent/gen/user"
 )
 
 // Client is the client that holds all ent builders.

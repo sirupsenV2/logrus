@@ -3,7 +3,6 @@
 package gen
 
 import (
-	"core-chain/ent/gen/user"
 	"encoding/json"
 	"fmt"
 	"strings"
@@ -12,6 +11,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/shopspring/decimal"
+	"github.com/sirupsenV2/logrus/ent/gen/user"
 )
 
 // User is the model entity for the User schema.

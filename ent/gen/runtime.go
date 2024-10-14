@@ -3,10 +3,9 @@
 package gen
 
 import (
-	"core-chain/ent/gen/user"
-	"core-chain/ent/schema"
-
 	"github.com/shopspring/decimal"
+	"github.com/sirupsenV2/logrus/ent/gen/user"
+	"github.com/sirupsenV2/logrus/ent/schema"
 )
 
 // The init function reads all schema descriptors with runtime code

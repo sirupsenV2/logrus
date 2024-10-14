@@ -4,8 +4,6 @@ package gen
 
 import (
 	"context"
-	"core-chain/ent/gen/predicate"
-	"core-chain/ent/gen/user"
 	"errors"
 	"fmt"
 	"sync"
@@ -14,6 +12,8 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/shopspring/decimal"
+	"github.com/sirupsenV2/logrus/ent/gen/predicate"
+	"github.com/sirupsenV2/logrus/ent/gen/user"
 )
 
 const (

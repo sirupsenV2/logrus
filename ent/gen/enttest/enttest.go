@@ -5,13 +5,12 @@ package enttest
 import (
 	"context"
 
-	"core-chain/ent/gen"
+	"github.com/sirupsenV2/logrus/ent/gen"
 	// required by schema hooks.
-	_ "core-chain/ent/gen/runtime"
-
-	"core-chain/ent/gen/migrate"
+	_ "github.com/sirupsenV2/logrus/ent/gen/runtime"
 
 	"entgo.io/ent/dialect/sql/schema"
+	"github.com/sirupsenV2/logrus/ent/gen/migrate"
 )
 
 type (

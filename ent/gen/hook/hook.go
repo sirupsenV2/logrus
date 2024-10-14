@@ -4,8 +4,9 @@ package hook
 
 import (
 	"context"
-	"core-chain/ent/gen"
 	"fmt"
+
+	"github.com/sirupsenV2/logrus/ent/gen"
 )
 
 // The UserFunc type is an adapter to allow the use of ordinary

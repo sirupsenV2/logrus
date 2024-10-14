@@ -4,8 +4,6 @@ package gen
 
 import (
 	"context"
-	"core-chain/ent/gen/predicate"
-	"core-chain/ent/gen/user"
 	"errors"
 	"fmt"
 	"time"
@@ -14,6 +12,8 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/shopspring/decimal"
+	"github.com/sirupsenV2/logrus/ent/gen/predicate"
+	"github.com/sirupsenV2/logrus/ent/gen/user"
 )
 
 // UserUpdate is the builder for updating User entities.

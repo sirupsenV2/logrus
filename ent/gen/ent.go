@@ -4,7 +4,6 @@ package gen
 
 import (
 	"context"
-	"core-chain/ent/gen/user"
 	"errors"
 	"fmt"
 	"reflect"
@@ -13,6 +12,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/sirupsenV2/logrus/ent/gen/user"
 )
 
 // ent aliases to avoid import conflicts in user's code.

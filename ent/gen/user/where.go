@@ -3,11 +3,11 @@
 package user
 
 import (
-	"core-chain/ent/gen/predicate"
 	"time"
 
 	"entgo.io/ent/dialect/sql"
 	"github.com/shopspring/decimal"
+	"github.com/sirupsenV2/logrus/ent/gen/predicate"
 )
 
 // ID filters vertices based on their ID field.
